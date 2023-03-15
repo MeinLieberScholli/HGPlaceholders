@@ -13,6 +13,6 @@ let package = Package(
             targets: ["HGPlaceholders"]),
     ],
     targets: [
-        .target(name: "HGPlaceholders", path: "HGPlaceholders/Classes")
+        .target(name: "HGPlaceholders", path: "HGPlaceholders")
     ]
 )

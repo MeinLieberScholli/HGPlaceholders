@@ -19,7 +19,7 @@ class ViewController: UITableViewController {
         
         
         // cell for custom placeholder
-        let nib = UINib(nibName: "ExampleTableViewCell", bundle: Bundle.module)
+        let nib = UINib(nibName: "ExampleTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "CustomPlaceholderCell")
                 
         placeholderTableView = tableView as? TableView
